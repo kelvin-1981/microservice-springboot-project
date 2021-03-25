@@ -1,0 +1,10 @@
+person:
+  name: sum
+  age: 20
+  happy: true
+  birth: 2010/1/1
+  maps: {k1: v1, k2: v2}
+  lists: [1,2,3,4,5]
+  dog:
+    name: ´ó»Æ
+    age: 3
