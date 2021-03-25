@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-03-jsr303" />
+        <module name="springboot-01-hello" />
+        <module name="springboot-04-web" />
+        <module name="springboot-02-config" />
+        <module name="springboot-05-system" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-springboot-project" target="1.8" />
+      <module name="springboot-01-hello" target="1.8" />
+      <module name="springboot-02-config" target="1.8" />
+      <module name="springboot-03-jsr303" target="1.8" />
+      <module name="springboot-04-web" target="1.8" />
+      <module name="springboot-05-application" target="1.8" />
+      <module name="springboot-05-system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservice-springboot-project" options="-parameters" />
+      <module name="springboot-01-hello" options="-parameters" />
+      <module name="springboot-02-config" options="-parameters" />
+      <module name="springboot-03-jsr303" options="-parameters" />
+      <module name="springboot-04-web" options="-parameters" />
+      <module name="springboot-05-application" options="-parameters" />
+      <module name="springboot-05-system" options="-parameters" />
+    </option>
+  </component>
+</project>

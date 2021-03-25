@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>springboot</title>
+</head>
+<body>
+
+<h1>测试页面</h1>
+
+<div th:text="${msg}"/>
+
+<hr>
+
+<h3 th:each="user:${users}" th:text="${user}"/>
+
+<hr>
+
+<h4 th:each="user:${users}">[[${user}]]</h4>
+
+
+</body>
+</html>

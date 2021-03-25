@@ -26,6 +26,8 @@
         <module>springboot-01-hello</module>
         <module>springboot-02-config</module>
         <module>springboot-03-jsr303</module>
+        <module>springboot-04-web</module>
+        <module>springboot-05-system</module>
     </modules>
 
     <dependencies>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-springboot-project.iml" filepath="$PROJECT_DIR$/microservice-springboot-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-01-hello/springboot-01-hello.iml" filepath="$PROJECT_DIR$/springboot-01-hello/springboot-01-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-02-config/springboot-02-config.iml" filepath="$PROJECT_DIR$/springboot-02-config/springboot-02-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-03-jsr303/springboot-03-jsr303.iml" filepath="$PROJECT_DIR$/springboot-03-jsr303/springboot-03-jsr303.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-04-web/springboot-04-web.iml" filepath="$PROJECT_DIR$/springboot-04-web/springboot-04-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-05-system/springboot-05-system.iml" filepath="$PROJECT_DIR$/springboot-05-system/springboot-05-system.iml" />
+    </modules>
+  </component>
+</project>
