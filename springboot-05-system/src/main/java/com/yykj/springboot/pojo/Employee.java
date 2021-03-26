@@ -14,8 +14,8 @@ public class Employee {
     private String lastName;
     private String email;
     private Integer gender; //0:女 1:男
-    private Date birth;
     private Department department;
+    private Date birth;
 
     public Employee(int id, String lastName, String email, Integer gender, Department department) {
         this.id = id;
