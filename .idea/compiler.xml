@@ -7,11 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-07-data-druid" />
+        <module name="springboot-06-data" />
         <module name="springboot-03-jsr303" />
         <module name="springboot-01-hello" />
         <module name="springboot-04-web" />
         <module name="springboot-02-config" />
         <module name="springboot-05-system" />
+        <module name="springboot-08-data-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +25,9 @@
       <module name="springboot-04-web" target="1.8" />
       <module name="springboot-05-application" target="1.8" />
       <module name="springboot-05-system" target="1.8" />
+      <module name="springboot-06-data" target="1.8" />
+      <module name="springboot-07-data-druid" target="1.8" />
+      <module name="springboot-08-data-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +39,9 @@
       <module name="springboot-04-web" options="-parameters" />
       <module name="springboot-05-application" options="-parameters" />
       <module name="springboot-05-system" options="-parameters" />
+      <module name="springboot-06-data" options="-parameters" />
+      <module name="springboot-07-data-druid" options="-parameters" />
+      <module name="springboot-08-data-mybatis" options="-parameters" />
     </option>
   </component>
 </project>

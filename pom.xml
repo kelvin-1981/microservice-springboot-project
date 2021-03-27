@@ -28,6 +28,9 @@
         <module>springboot-03-jsr303</module>
         <module>springboot-04-web</module>
         <module>springboot-05-system</module>
+        <module>springboot-06-data</module>
+        <module>springboot-07-data-druid</module>
+        <module>springboot-08-data-mybatis</module>
     </modules>
 
     <dependencies>
