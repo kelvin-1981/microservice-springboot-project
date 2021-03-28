@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data/springboot-06-data.iml" filepath="$PROJECT_DIR$/springboot-06-data/springboot-06-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-07-data-druid/springboot-07-data-druid.iml" filepath="$PROJECT_DIR$/springboot-07-data-druid/springboot-07-data-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-08-data-mybatis/springboot-08-data-mybatis.iml" filepath="$PROJECT_DIR$/springboot-08-data-mybatis/springboot-08-data-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-09-security/springboot-09-security.iml" filepath="$PROJECT_DIR$/springboot-09-security/springboot-09-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-10-security-shiro/springboot-10-security-shiro.iml" filepath="$PROJECT_DIR$/springboot-10-security-shiro/springboot-10-security-shiro.iml" />
     </modules>
   </component>
 </project>

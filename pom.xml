@@ -31,6 +31,8 @@
         <module>springboot-06-data</module>
         <module>springboot-07-data-druid</module>
         <module>springboot-08-data-mybatis</module>
+        <module>springboot-09-security</module>
+        <module>springboot-10-security-shiro</module>
     </modules>
 
     <dependencies>
