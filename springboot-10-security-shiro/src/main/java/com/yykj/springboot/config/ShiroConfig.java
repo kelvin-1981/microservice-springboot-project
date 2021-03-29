@@ -1,13 +1,12 @@
 package com.yykj.springboot.config;
 
-import com.sun.xml.internal.bind.v2.TODO;
+import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -26,20 +25,29 @@ public class ShiroConfig {
         factoryBean.setSecurityManager(securityManager);
 
         // TODO: 2.添加shiro内置过滤器
+        Map<String, String> filterMap = new LinkedHashMap<>();
+
+        // TODO: 2.1 设置页面访问权限 未授权转向显示未授权信息
+        filterMap.put("/user/add","perms[user:add]");
+        filterMap.put("/user/update","perms[user:update]");
+
+        // TODO: 2.2 设置页面认证级别(必须认证：UserRealm的认证方法进行认证)
         // anon: 无需认证就可以访问
         // authc: 必须认证了才能访问
         // user: 必须拥有记住我功能才能用
         // perms: 拥有对某个资源的权限才能访问
         // role: 拥有某个角色权限
-        Map<String, String> filterMap = new LinkedHashMap<>();
-        filterMap.put("/user/add", "authc");
-        filterMap.put("/user/update", "authc");
+        filterMap.put("/user/*", "authc");
+
         factoryBean.setFilterChainDefinitionMap(filterMap);
 
         // TODO: 3.设置登录页面地址
         factoryBean.setLoginUrl("/toLogin");
 
-        // TODO: 4.返回对象
+        // TODO: 4.设置未授权页面
+        factoryBean.setUnauthorizedUrl("/unAuth");
+
+        // TODO: 5.返回对象
         return factoryBean;
     }
 
@@ -63,6 +71,15 @@ public class ShiroConfig {
     @Bean(name = "userRealm")
     public UserRealm userRealm(){
         return new UserRealm();
+    }
+
+    /**
+     * 配置ShiroDialect：用于shiro与thymeleaf整合
+     * @return
+     */
+    @Bean
+    public ShiroDialect getShiroDialect() {
+        return new ShiroDialect();
     }
 
 }

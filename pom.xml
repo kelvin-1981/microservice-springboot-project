@@ -33,6 +33,7 @@
         <module>springboot-08-data-mybatis</module>
         <module>springboot-09-security</module>
         <module>springboot-10-security-shiro</module>
+        <module>springboot-11-swagger</module>
     </modules>
 
     <dependencies>
