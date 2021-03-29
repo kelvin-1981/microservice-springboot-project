@@ -34,6 +34,7 @@
         <module>springboot-09-security</module>
         <module>springboot-10-security-shiro</module>
         <module>springboot-11-swagger</module>
+        <module>springboot-12-task</module>
     </modules>
 
     <dependencies>
