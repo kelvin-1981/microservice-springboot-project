@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/springboot-10-security-shiro/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-11-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-12-task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-dubbo-provider/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

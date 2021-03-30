@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/springboot-05-application/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-10-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-13-dubbo-zookeeper/pom.xml" />
       </set>
     </option>
   </component>

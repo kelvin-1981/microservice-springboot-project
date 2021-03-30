@@ -35,6 +35,8 @@
         <module>springboot-10-security-shiro</module>
         <module>springboot-11-swagger</module>
         <module>springboot-12-task</module>
+        <module>springboot-13-dubbo-provider</module>
+        <module>springboot-13-dubbo-consumer</module>
     </modules>
 
     <dependencies>
