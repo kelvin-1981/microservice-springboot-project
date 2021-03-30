@@ -11,6 +11,7 @@
         <module name="springboot-06-data" />
         <module name="springboot-01-hello" />
         <module name="springboot-13-dubbo-provider" />
+        <module name="springboot-p01-logging" />
         <module name="springboot-05-system" />
         <module name="springboot-07-data-druid" />
         <module name="springboot-03-jsr303" />
@@ -42,6 +43,7 @@
       <module name="springboot-13-dubbo-consumer" target="1.8" />
       <module name="springboot-13-dubbo-provider" target="1.8" />
       <module name="springboot-13-dubbo-zookeeper" target="1.8" />
+      <module name="springboot-p01-logging" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -64,6 +66,7 @@
       <module name="springboot-13-dubbo-consumer" options="-parameters" />
       <module name="springboot-13-dubbo-provider" options="-parameters" />
       <module name="springboot-13-dubbo-zookeeper" options="-parameters" />
+      <module name="springboot-p01-logging" options="-parameters" />
     </option>
   </component>
 </project>

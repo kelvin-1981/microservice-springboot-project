@@ -13,7 +13,6 @@ public class UserService {
     // 1. 注解@Reference
     // 2. 引用方法：A.Pom坐标 B.定义路径相同的接口名
     // 3. 调用
-
     @Reference
     private ITicketService ticketService;
 
